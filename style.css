@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; /* Ajuste conforme necessário */
+}
+
+#game-board-container {
+    position: relative;
+    width: 751px; /* Largura do seu tabuleiro */
+    height: 534px; /* Altura do seu tabuleiro */
+    background-color: #fff;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden; /* Garante que os marcadores fiquem dentro */
+}
+
+#game-board {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.player-marker {
+    position: absolute;
+    width: 30px; /* Tamanho do marcador */
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue; /* Cor inicial, pode ser alterada via JS */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition: left 0.5s ease-in-out, top 0.5s ease-in-out; /* Animação de movimento */
+}
+
+/* Cores para os marcadores dos grupos */
+#player1-marker { background-color: #e74c3c; } /* Vermelho */
+#player2-marker { background-color: #2ecc71; } /* Verde */
+#player3-marker { background-color: #f39c12; } /* Laranja */
+/* Adicione mais cores se tiver mais grupos */
+
+
+#game-controls {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px; /* Largura da área de controles */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#current-turn {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#question-area {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+#question-text {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: left;
+    background-color: #ecf0f1;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.option-btn:hover {
+    background-color: #dce0e1;
+}
+
+#answer-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#feedback-message {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#scoreboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px; /* Largura do placar */
+}
+
+#scoreboard h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 0.9em;
+}

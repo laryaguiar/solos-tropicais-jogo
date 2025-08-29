@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solos Tropicais - O Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Solos Tropicais - O Jogo</h1>
+    </header>
+
+    <main>
+        <div id="game-board-container">
+            <img id="game-board" src="caminho/para/seu/tabuleiro.png" alt="Tabuleiro do Jogo Solos Tropicais">
+            <!-- Marcadores para os jogadores/grupos -->
+            <div id="player1-marker" class="player-marker" style="left: 50px; top: 50px;">Grupo 1</div>
+            <div id="player2-marker" class="player-marker" style="left: 70px; top: 70px;">Grupo 2</div>
+            <!-- Adicione mais marcadores conforme o número de grupos -->
+        </div>
+
+        <div id="game-controls">
+            <div id="current-turn">Turno do Grupo 1</div>
+            <button id="draw-card-btn">Sortear Carta</button>
+
+            <div id="question-area" style="display: none;">
+                <p id="question-text"></p>
+                <div id="options-container">
+                    <!-- Opções de resposta serão inseridas aqui pelo JavaScript -->
+                </div>
+                <input type="text" id="answer-input" placeholder="Digite sua resposta (se aplicável)" style="display: none;">
+                <button id="submit-answer-btn">Responder</button>
+                <p id="feedback-message"></p>
+            </div>
+        </div>
+
+        <div id="scoreboard">
+            <h2>Placar</h2>
+            <p>Grupo 1: <span id="score1">0</span></p>
+            <p>Grupo 2: <span id="score2">0</span></p>
+            <!-- Adicione mais pontuações conforme o número de grupos -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jogo Solos Tropicais - Desenvolvido por Larissa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
