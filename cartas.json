@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "categoria": "formação",
+    "dificuldade": "fácil",
+    "pergunta": "O solo laterítico corresponde à camada mais profunda do perfil do solo tropical que resulta da decomposição ou desagregação in situ da rocha mantendo ainda, de maneira nítida, a estrutura da rocha que lhe deu origem.",
+    "opcoes": {
+    "verdadeiro": "Verdadeiro",
+    "falso": "Falso"
+    },
+    "respostaCorreta": "Falso",
+    "avanco": 1,
+    "tipo": "VF"
+  },
+ {
+    "id": 2,
+    "categoria": "formação",
+    "dificuldade": "fácil",
+    "pergunta": "O solo saprolítico caracterizase por ser um solo superficial, típicos de áreas bem drenadas das regiões tropicais úmidas; residual ou não, intemperizado em condições tropicais, rico em óxidos e hidróxidos de ferro e alumínio.",
+    "opcoes": {
+     "verdadeiro": "Verdadeiro",
+     "falso": "Falso"
+    },
+    "respostaCorreta": "Falso",
+    "avanco": 1,
+    "tipo": "VF"
+     },
+  {
+    "id": 3,
+    "categoria": "formação",
+    "dificuldade": "fácil",
+    "pergunta": "Qual dos seguintes fenômenos não representa um tipo de intemperismo?",
+    "opcoes": {
+     "a": "Magmático",
+     "b": "Físico",
+     "c": "Químico",
+     "d": "Biológico"
+    },
+    "respostaCorreta": "a",
+    "avanco": 1,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 4,
+    "categoria": "formação",
+    "dificuldade": "fácil",
+    "pergunta": "Qual é o principal fator que afeta a formação dos solos tropicais?",
+    "opcoes": {
+     "a": "Altitude",
+     "b": "Latitude",
+     "c": "Glaciação",
+     "d": "Precipitação alta"
+    },
+    "respostaCorreta": "d",
+    "avanco": 1,
+    "tipo": "multipla_escolha"   
+  },
+  {
+    "id": 5,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Como a atividade biológica afeta os solos tropicais?",
+    "opcoes": {
+     "a": "Aumenta a compactação",
+     "b": "Reduz a biodiversidade do solo",
+     "c": "Aumenta a porosidade do solo",
+     "d": "Desagregação das partículas do solo"
+    },
+    "respostaCorreta": "c",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 6,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Qual dos seguintes fatores contribui significativamente para a lixiviação de minerais em solos tropicais?",
+    "opcoes": {
+     "a": "Altas temperaturas",
+     "b": "Elevada precipitação pluviométrica",
+     "c": "Presença de argilominerais estáveis",
+     "d": "Insolubilidade de carbonatos e da gipsita"
+    },
+    "respostaCorreta": "b",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 7,
+    "categoria": "formação",
+    "dificuldade": "difícil",
+    "pergunta": "Qual das seguintes características dos solos lateríticos é devida à lixiviação?",
+    "opcoes": {
+     "a": "Elevada fertilidade",
+     "b": "Elevada acidez",
+     "c": "Presença de horizontes bem definidos",
+     "d": "Baixa porosidade"
+    },
+    "respostaCorreta": "b",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 8,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Qual reação de intemperismo químico pode ocorrer em ambientes em que as águas percolantes possuem pH inferior a 5?",
+    "opcoes": {
+     "a": "Hidrólise",
+     "b": "Acidólise",
+     "c": "Hidratação",
+     "d": "Dissolução"
+    },
+    "respostaCorreta": "b",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 9,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Os solos que possuem elevados teores de óxidos e hidróxidos de ferro e alumínio em sua composição são classificados como:",
+    "opcoes": {
+     "a": "Solo siltoso",
+     "b": "Solo saprolítico",
+     "c": "Solo laterítico",
+     "d": "Solo arenoso"
+    },
+    "respostaCorreta": "c",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 10,
+    "categoria": "formação",
+    "dificuldade": "difícil",
+    "pergunta": "Qual é o argilomineral mais comumente encontrado nos solos lateríticos?",
+    "opcoes": {
+     "a": "Montmorilonita",
+     "b": "Caolinita",
+     "c": "Haloisita",
+     "d": "Ilita"
+    },
+    "respostaCorreta": "b",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 11,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Qual é o mineral primário mais comum encontrado nos solos tropicais?",
+    "opcoes": {
+     "a": "Quartzo",
+     "b": "Anfibólio",
+     "c": "Olivina",
+     "d": "Biotita"
+    },
+    "respostaCorreta": "a",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 12,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Qual é a influência dos óxidos e hidróxidos de ferro e alumínio na formação de agregações nos solos lateríticos?",
+    "opcoes": {
+     "a": "Reduzir adsorção de água",
+     "b": "Provocam a desagregação dos solos",
+     "c": "Reduzem a densidade dos solos",
+     "d": "Cimentam as partículas"
+    },
+    "respostaCorreta": "d",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 13,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Quais são os principais óxidos e hidróxidos de ferro encontrados em solos tropicais?",
+    "opcoes": {
+     "a": "Andaluzita e Cianita",
+     "b": "Magnetita e Pirita",
+     "c": "Hematita e Goethita",
+     "d": "Espinélio e Estaurolita"
+    },
+    "respostaCorreta": "c",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 14,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Quais dos seguintes exemplos são argilominerais 2:1?",
+    "opcoes": {
+     "a": "Haloisita e Caulinita",
+     "b": "Haloisita e Ilita",
+     "c": "Caulinita e Vermiculita",
+     "d": "Montmorilonita e Ilita"
+    },
+    "respostaCorreta": "d",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 15,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "O que caracteriza a caulinita, um dos principais argilominerais em solos lateríticos?",
+    "opcoes": {
+     "a": "Estrutura 2:1 e alta plasticidade",
+     "b": "Estrutura 1:1 e baixa plasticidade",
+     "c": "Estrutura 2:1 e baixa plasticidade",
+     "d": "Estrutura 1:1 e alta plasticidade"
+    },
+    "respostaCorreta": "c",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 16,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Quais são as principais estruturas cristalinas encontradas em argilominerais?",
+    "opcoes": {
+     "a": "Tetraédricas e octaédricas",
+     "b": "Monoclínica e triclínica",
+     "c": "Ortorrômbica e rômbica",
+     "d": "Hexagonal e trigonal"
+    },
+    "respostaCorreta": "a",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 17,
+    "categoria": "formação",
+    "dificuldade": "difícil",
+    "pergunta": "Quais das seguintes sequências representam os fenômenos de alteração intempérica em ordem crescente de hidrólise?",
+    "opcoes": {
+     "a": "Monossalitização, Bissalitização, Alitização",
+     "b": "Bissalitização, Alitização, Monossalitização",
+     "c": "Bissalitização, Monossalitização, Alitização",
+     "d": "Alitização, Bissalitização, Monossalitização"
+    },
+    "respostaCorreta": "c",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 18,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Qual hidróxido de alumínio é formado na reação de intemperismo químico denominada de alitização?",
+    "opcoes": {
+     "a": "Caolinita",
+     "b": "Esmectita",
+     "c": "Gibsita",
+     "d": "Montmorilonita"
+    },
+    "respostaCorreta": "c",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 19,
+    "categoria": "formação",
+    "dificuldade": "fácil",
+    "pergunta": "Intemperismo físico é caracterizado pela desagregação das rochas, alterando o tamanho e o formato dos seus minerais, mas sem afetar a composição química.",
+    "opcoes": {
+     "verdadeiro": "Verdadeiro",
+     "falso": "Falso"
+    },
+    "respostaCorreta": "Verdadeiro",
+    "avanco": 1,
+    "tipo": "VF"
+  },
+  {
+    "id": 20,
+    "categoria": "formação",
+    "dificuldade": "médio",
+    "pergunta": "Solos podzólicos são formados como resultado da reação de intemperismo químico denominada de acidólise parcial.",
+    "opcoes": {
+     "verdadeiro": "Verdadeiro",
+     "falso": "Falso"
+    },
+    "respostaCorreta": "Falso",
+    "avanco": 2,
+    "tipo": "VF"
+  },
+    {
+    "id": 21,
+    "categoria": "classificação",
+    "dificuldade": "fácil",
+    "pergunta": "Avalie os solos neste perfil típico de solo tropical baseando-se nos dois grandes grupos da classificação MCT.",
+    "opcoes": {
+     "a": "Camada superior: Laterítico; Camada inferior: Saprolítico.",
+     "b": "Camada superior: Saprolítico; Camada inferior: Laterítico.",
+     "c": "Camada superior: Saprolítico; Camada inferior: Saprolítico.",
+     "d": "Camada superior: Orgânico; Camada inferior: Residual."
+    },
+    "respostaCorreta": "a",
+    "avanco": 1,
+    "tipo": "multipla_escolha",
+    "imageUrl": "imagens/imagem_carta_21.png"
+  },
+  {
+    "id": 22,
+    "categoria": "classificação",
+    "dificuldade": "fácil",
+    "pergunta": "Sistema de classificação utilizado para classificar um solo em laterítico ou não laterítico ",
+    "opcoes": {
+     "a": "SUCS",
+     "b": "MCT",
+     "c": "TRB",
+     "d": "SPT"
+    },
+    "respostaCorreta": "b",
+    "avanco": 1,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 23,
+    "categoria": "classificação",
+    "dificuldade": "fácil",
+    "pergunta": "Qual característica do solo o ensaio de perda de massa por imersão pode indicar?",
+    "opcoes": {
+     "a": "Porosidade",
+     "b": "Acidez natural",
+     "c": "Grau de saturação",
+     "d": "Erodibilidade"
+    },
+    "respostaCorreta": "d",
+    "avanco": 1,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 24,
+    "categoria": "classificação",
+    "dificuldade": "fácil",
+    "pergunta": "Quais critérios são usados na classificação expedita MCT?",
+    "opcoes": {
+     "a": "Contração volumétrica e penetração",
+     "b": "Contração diametral e penetração",
+     "c": "Contração diametral e perda de massa",
+     "d": "Perda de massa e penetração"
+    },
+    "respostaCorreta": "b",
+    "avanco": 1,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 25,
+    "categoria": "classificação",
+    "dificuldade": "fácil",
+    "pergunta": "Qual ensaio, representado na figura abaixo, que consiste na determinação do máximo consumo de corante adsorvido pelo solo?",
+    "opcoes": {
+     "a": "Ensaio para identificação de matéria orgânica",
+     "b": "Ensaio de Azul de Metileno",
+     "c": "Ensaio para determinação do índice de atividade",
+     "d": "Ensaio de pH do solo"
+    },
+    "respostaCorreta": "b",
+    "avanco": 1,
+    "tipo": "multipla_escolha",
+    "imageUrl": "imagens/imagem_carta_25.png"
+  },
+  {
+    "id": 26,
+    "categoria": "classificação",
+    "dificuldade": "difícil",
+    "pergunta": "Na metodologia MCT, a inclinação d' do ramo seco na curva de compactação indica qual propriedade do solo?",
+    "opcoes": {
+     "a": "Tendência ao comportamento laterítico",
+     "b": "Baixa deformalidade",
+     "c": "Presença de areia quartzosa",
+     "d": "Granulometria fina"
+    },
+    "respostaCorreta": "c",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 27,
+    "categoria": "classificação",
+    "dificuldade": "médio",
+    "pergunta": "Na metodologia MCT, uma baixa perda de massa por imersão indica qual classificação do solo?",
+    "opcoes": {
+     "a": "Laterítico",
+     "b": "Não laterítico",
+     "c": "Siltoso",
+     "d": "Arenoso"
+    },
+    "respostaCorreta": "a",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 28,
+    "categoria": "classificação",
+    "dificuldade": "médio",
+    "pergunta": "O que se pode afirmar a respeito da distância intercalar de um argilomineral?",
+    "opcoes": {
+     "a": "É a menor unidade que representa a estrutura cristalina",
+     "b": "Não varia com a presença de íons ou água",
+     "c": "Só é mensurável em argilominerais 1:1",
+     "d": "É importante para a classificação dos argilominerais"
+    },
+    "respostaCorreta": "d",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": "29",
+    "categoria": "classificação",
+    "dificuldade": "médio",
+    "pergunta": "Qual das seguintes características a Microscopia Eletrônica de Varredura pode fornecer para auxiliar na classificação de argilominerais?",
+    "opcoes": {
+     "a": "Calor específico",
+     "b": "Bandas de absorção de infravermelho",
+     "c": "Superfície e poros dos minerais",
+     "d": "Número de coordenação"
+    },
+    "respostaCorreta": "c",
+    "avanco": 2,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": "30",
+    "categoria": "classificação",
+    "dificuldade": "difícil",
+    "pergunta": "Qual das seguintes características dos argilominerais não é fornecida pela Difração de Raios X (DRX)?",
+    "opcoes": {
+     "a": "Expansão e contração entre camadas",
+     "b": "Composição mineralógica",
+     "c": "Estrutura Cristalina",
+     "d": "Polaridade das partículas magnéticas"
+    },
+    "respostaCorreta": "d",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 31,
+    "categoria": "interpretação",
+    "dificuldade": "difícil",
+    "pergunta": "A figura a seguir apresenta qual fenômeno e como ele se caracteriza?",
+    "opcoes": {
+     "a": "Fenômeno: Expansão. Característica: Aumento de volume de alguns argilominerais devido à adsorção de água em sua estrutura interlamelar.",
+     "b": "Fenômeno: Contração. Característica: Redução de volume de alguns argilominerais pela perda de água de sua estrutura.",
+     "c": "Fenômeno: Adsorção. Característica: Retenção de partículas de ar na superfície dos argilominerais.",
+     "d": "Fenômeno: Erosão. Característica: Deslocamento de partículas de solo pela ação da água."
+    },
+    "respostaCorreta": "a",
+    "avanco": 3,
+    "tipo": "multipla_escolha",
+    "imageUrl": "imagens/imagem_carta_31.png"
+  },
+  {
+    "id": 32,
+    "categoria": "interpretação",
+    "dificuldade": "difícil",
+    "pergunta": "Quais características do fluído de umedecimento podem favorecer a ocorrência de colapso?",
+    "opcoes": {
+     "a": "Presença de sódio e baixa tensão superficial",
+     "b": "Ausência de sódio e alta tensão superficial",
+     "c": "Presença de sódio e alta tensão superficial",
+     "d": "Ausência de sódio e baixa tensão superficial"
+    },
+    "respostaCorreta": "c",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 33,
+    "categoria": "interpretação",
+    "dificuldade": "fácil",
+    "pergunta": "O solo laterítico ao ser compactado apresenta boa resistência e baixa deformabilidade.",
+    "opcoes": {
+     "verdadeiro": "Verdadeiro",
+     "falso": "Falso"
+    },
+    "respostaCorreta": "Falso",
+    "avanco": 1,
+    "tipo": "VF"
+  },
+  {
+    "id": 34,
+    "categoria": "interpretação",
+    "dificuldade": "fácil",
+    "pergunta": "Qual sistema de disposição final de resíduos sólidos possui como função resistir à erosão, ressecamento e retenção de água?",
+    "opcoes": {
+     "a": "Camada de cobertura",
+     "b": "Revestimento de fundo",
+     "c": "Barreira hidráulica",
+     "d": "Camada de drenagem"
+    },
+    "respostaCorreta": "a",
+    "avanco": 1,
+    "tipo": "multipla_escolha"
+  },
+  {
+    "id": 35,
+    "categoria": "interpretação",
+    "dificuldade": "difícil",
+    "pergunta": "Como é denominado a máxima quantidade de água que o solo pode reter em equilíbrio com as forças de gravidade?",
+    "opcoes": {
+     "a": "Capacidade de sucção",
+     "b": "Ponto de murcha permanente",
+     "c": "Capacidade de suporte",
+     "d": "Capacidade de campo"
+    },
+    "respostaCorreta": "d",
+    "avanco": 3,
+    "tipo": "multipla_escolha"
+  }
+]

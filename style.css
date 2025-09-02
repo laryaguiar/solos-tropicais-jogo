@@ -2,33 +2,57 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe a altura total da viewport */
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
+    box-sizing: border-box; /* Inclui padding na largura/altura total */
 }
 
 header {
     margin-bottom: 20px;
 }
 
+/* Main container - será sempre um flex container para centralizar seu conteúdo */
 main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
     width: 100%;
-    max-width: 1200px; /* Ajuste conforme necessário */
+    max-width: 1200px; /* Largura máxima para o conteúdo do jogo */
+    flex-grow: 1; /* Permite que o main ocupe o espaço vertical disponível */
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente dentro do main */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente dentro do main */
+    /* Adicionado para garantir que o main não seja cortado em telas menores */
+    min-width: 0; /* Permite que o flex item encolha */
+    overflow: hidden; /* Esconde o conteúdo que transborda */
+}
+
+/* Game Area - será um grid APENAS quando estiver visível */
+#game-area {
+    display: grid; /* Definido como grid por padrão aqui, mas o JS vai controlar sua visibilidade */
+    grid-template-columns: auto 350px; /* Uma coluna flexível para o tabuleiro, uma fixa para controles */
+    gap: 20px;
+    width: 100%; /* Ocupa a largura total do main */
+    height: 100%; /* Ocupa a altura total do main */
+    /* O JS alterna entre display: none e display: flex. Quando é flex, este grid se aplica. */
+    /* Adicionado para garantir que o game-area não seja cortado em telas menores */
+    min-width: 0; /* Permite que o grid encolha */
+    overflow: hidden; /* Esconde o conteúdo que transborda */
 }
 
 #game-board-container {
     position: relative;
-    width: 751px; /* Largura do seu tabuleiro */
-    height: 534px; /* Altura do seu tabuleiro */
+    grid-column: 1 / 2; /* Coloca o contêiner do tabuleiro na primeira coluna */
+    width: 751px; /* Largura do seu tabuleiro (conforme seu docx) */
+    height: 534px; /* Altura do seu tabuleiro (conforme seu docx) */
     background-color: #fff;
     border: 2px solid #333;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    overflow: hidden; /* Garante que os marcadores fiquem dentro */
+    overflow: hidden;
+    /* Adicionado para garantir que o tabuleiro não seja cortado em telas menores */
+    max-width: 100%; /* Garante que não ultrapasse a largura disponível */
+    height: auto; /* Ajusta a altura proporcionalmente */
 }
 
 #game-board {
@@ -38,11 +62,11 @@ main {
 }
 
 .player-marker {
+    display: none; /* Esconde todos os marcadores por padrão */
     position: absolute;
-    width: 30px; /* Tamanho do marcador */
-    height: 30px;
+    width: 20px; /* Tamanho do marcador */
+    height: 20px;
     border-radius: 50%;
-    background-color: blue; /* Cor inicial, pode ser alterada via JS */
     color: white;
     display: flex;
     justify-content: center;
@@ -51,17 +75,20 @@ main {
     font-weight: bold;
     border: 2px solid #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
-    transition: left 0.5s ease-in-out, top 0.5s ease-in-out; /* Animação de movimento */
+    transition: left 1s ease-in-out, top 1s ease-in-out; /* Transição mais suave (1 segundo) */
 }
 
-/* Cores para os marcadores dos grupos */
+/* Cores para os marcadores dos grupos (conforme seu docx) */
 #player1-marker { background-color: #e74c3c; } /* Vermelho */
 #player2-marker { background-color: #2ecc71; } /* Verde */
-#player3-marker { background-color: #f39c12; } /* Laranja */
-/* Adicione mais cores se tiver mais grupos */
+#player3-marker { background-color: #9400D3; } /* Roxo */
+#player4-marker { background-color: #0000FF; } /* Azul */
+#player5-marker { background-color: #8B4513; } /* Marrom */
+#player6-marker { background-color: #000000; } /* Preto */
 
 
 #game-controls {
+    grid-column: 2 / 3; /* Coloca os controles na segunda coluna */
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -70,6 +97,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    /* Adicionado para garantir que os controles não sejam cortados em telas menores */
+    max-width: 100%; /* Garante que não ultrapasse a largura disponível */
 }
 
 #current-turn {
@@ -131,21 +160,108 @@ button:hover {
     margin-top: 10px;
 }
 
-#scoreboard {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 350px; /* Largura do placar */
-}
-
-#scoreboard h2 {
-    margin-top: 0;
-    text-align: center;
-}
-
 footer {
     margin-top: 30px;
     color: #777;
     font-size: 0.9em;
+}
+
+/* Estilos para a tela de configuração e tela final (serão centralizadas pelo 'main') */
+#game-setup, #end-game-screen {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    width: 100%; /* Ocupa a largura total do main */
+    max-width: 500px; /* Largura máxima para estas telas */
+    text-align: center; /* Centraliza o texto */
+}
+
+#game-setup label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#game-setup select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    text-align: center;
+}
+
+#game-setup button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #28a745;
+}
+
+#game-setup button:hover {
+    background-color: #218838;
+}
+
+#end-game-screen h2 {
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+#end-game-screen h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#end-game-screen ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+}
+
+#end-game-screen ul li {
+    background-color: #e9ecef;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#end-game-screen ul li span {
+    font-weight: bold;
+}
+
+#end-game-screen button {
+    background-color: #3498db;
+    padding: 12px 25px;
+    font-size: 1.1em;
+}
+
+#end-game-screen button:hover {
+    background-color: #2980b9;
+}
+
+
+/* Media Query para telas menores: empilha os elementos verticalmente */
+@media (max-width: 1150px) { /* Ajuste este valor se necessário */
+    #game-area {
+        grid-template-columns: 1fr; /* Uma única coluna */
+    }
+    #game-board-container, #game-controls {
+        grid-column: 1 / -1; /* Ocupa a largura total */
+        width: 100%; /* Garante que ocupem 100% da largura */
+    }
+    #game-board-container {
+        height: auto; /* Permite que a altura se ajuste proporcionalmente */
+    }
+    #game-board {
+        width: 100%;
+        height: auto;
+    }
 }
