@@ -3,7 +3,7 @@
     "id": 1,
     "categoria": "formação",
     "dificuldade": "fácil",
-    "pergunta": "O solo laterítico corresponde à camada mais profunda do perfil do solo tropical que resulta da decomposição ou desagregação in situ da rocha mantendo ainda, de maneira nítida, a estrutura da rocha que lhe deu origem.",
+    "pergunta": "O solo laterítico corresponde a camada mais profunda do perfil do solo tropical que resulta da decomposição ou desagregação in situ da rocha mantendo ainda, de maneira nítida, a estrutura da rocha que lhe deu origem.",
     "opcoes": {
     "verdadeiro": "Verdadeiro",
     "falso": "Falso"
@@ -16,7 +16,7 @@
     "id": 2,
     "categoria": "formação",
     "dificuldade": "fácil",
-    "pergunta": "O solo saprolítico caracterizase por ser um solo superficial, típicos de áreas bem drenadas das regiões tropicais úmidas; residual ou não, intemperizado em condições tropicais, rico em óxidos e hidróxidos de ferro e alumínio.",
+    "pergunta": "O solo saprolítico se caracteriza por ser um solo superficial, típicos de áreas bem drenadas das regiões tropicais úmidas; residual ou não, intemperizado em condições tropicais, rico em óxidos e hidróxidos de ferro e alumínio.",
     "opcoes": {
      "verdadeiro": "Verdadeiro",
      "falso": "Falso"
@@ -29,12 +29,12 @@
     "id": 3,
     "categoria": "formação",
     "dificuldade": "fácil",
-    "pergunta": "Qual dos seguintes fenômenos não representa um tipo de intemperismo?",
+    "pergunta": "Qual dos seguintes processos não representa um tipo de intemperismo?",
     "opcoes": {
-     "a": "Magmático",
-     "b": "Físico",
-     "c": "Químico",
-     "d": "Biológico"
+     "a": "Magmatismo",
+     "b": "Bissialitização",
+     "c": "Monossialitização",
+     "d": "Alitização"
     },
     "respostaCorreta": "a",
     "avanco": 1,
@@ -47,7 +47,7 @@
     "pergunta": "Qual é o principal fator que afeta a formação dos solos tropicais?",
     "opcoes": {
      "a": "Altitude",
-     "b": "Latitude",
+     "b": "Aridez",
      "c": "Glaciação",
      "d": "Precipitação alta"
     },
@@ -258,7 +258,7 @@
     "opcoes": {
      "a": "Caolinita",
      "b": "Esmectita",
-     "c": "Gibsita",
+     "c": "Gibbsita",
      "d": "Montmorilonita"
     },
     "respostaCorreta": "c",
@@ -282,7 +282,7 @@
     "id": 20,
     "categoria": "formação",
     "dificuldade": "médio",
-    "pergunta": "Solos podzólicos são formados como resultado da reação de intemperismo químico denominada de acidólise parcial.",
+    "pergunta": "Solos saprolíticos são formados como resultado da reação de intemperismo químico denominada de acidólise parcial.",
     "opcoes": {
      "verdadeiro": "Verdadeiro",
      "falso": "Falso"
@@ -295,7 +295,7 @@
     "id": 21,
     "categoria": "classificação",
     "dificuldade": "fácil",
-    "pergunta": "Avalie os solos neste perfil típico de solo tropical baseando-se nos dois grandes grupos da classificação MCT.",
+    "pergunta": "Indique a sequência típica de solos num manto de alteração de solo tropical baseando-se nos dois grandes grupos da classificação MCT.",
     "opcoes": {
      "a": "Camada superior: Laterítico; Camada inferior: Saprolítico.",
      "b": "Camada superior: Saprolítico; Camada inferior: Laterítico.",
@@ -313,10 +313,10 @@
     "dificuldade": "fácil",
     "pergunta": "Sistema de classificação utilizado para classificar um solo em laterítico ou não laterítico ",
     "opcoes": {
-     "a": "SUCS",
-     "b": "MCT",
-     "c": "TRB",
-     "d": "SPT"
+     "a": "SUCS (Sistema Unificado de Classificação de Solos)",
+     "b": "MCT (Miniatura, Compactado, Tropical)",
+     "c": "TRB (Transportation Research Board)",
+     "d": "SPT (Standard Penetration Test)"
     },
     "respostaCorreta": "b",
     "avanco": 1,
@@ -326,7 +326,7 @@
     "id": 23,
     "categoria": "classificação",
     "dificuldade": "fácil",
-    "pergunta": "Qual característica do solo o ensaio de perda de massa por imersão pode indicar?",
+    "pergunta": "Qual propriedade do solo pode ser indicada pelo ensaio de perda de massa por imersão",
     "opcoes": {
      "a": "Porosidade",
      "b": "Acidez natural",
@@ -375,7 +375,7 @@
     "pergunta": "Na metodologia MCT, a inclinação d' do ramo seco na curva de compactação indica qual propriedade do solo?",
     "opcoes": {
      "a": "Tendência ao comportamento laterítico",
-     "b": "Baixa deformalidade",
+     "b": "Baixa deformabilidade",
      "c": "Presença de areia quartzosa",
      "d": "Granulometria fina"
     },
@@ -407,7 +407,7 @@
      "a": "É a menor unidade que representa a estrutura cristalina",
      "b": "Não varia com a presença de íons ou água",
      "c": "Só é mensurável em argilominerais 1:1",
-     "d": "É importante para a classificação dos argilominerais"
+     "d": "É importante para a classificação dos argilominerais expansivos"
     },
     "respostaCorreta": "d",
     "avanco": 2,
